@@ -12,8 +12,63 @@ in html
 <!-- This is the head -->
 <!-- All styles and javascript go inside the head -->
     <head>
+        <meta charset ="utf-8" />
+        <title> Lab 1: Juan Zuniga Portfolio</title>
+        <style>
         
+        body {
+            background-color:#7edd99;
+            color:white;
+
+        }
         
+        header, nav {
+            
+            text-align: center;
+            
+        }
+        nav a:hover{
+            border-bottom:2px orange solid;
+            font-size:2em;
+            transition:.9s;
+        }
+        
+       nav a {
+            
+            padding: 10px;
+            font-size: 1.5em;
+            color:black;
+        }
+        #myPicture{
+            text-align:center;
+        }
+        
+        #myPicture {
+            border-radius: 40px;
+            
+        }
+        main img{
+            float:left;
+        }
+        footer{
+            float:left;
+        }
+        #footer {
+   position:absolute;
+   bottom:0;
+   width:100%;
+     height:150px;   /* Height of the footer */
+   text-align:center;
+}
+h1{
+    font-family:'Pacifico',cursive;
+    font-size:4em;
+    margin-bottom:0px;
+}
+         
+     </style>  
+        </style>
+    <link href="https://fonts.googleapis.com/css?family=Pacifico" rel="stylesheet">
     </head>
 <!-- closing head -->
 
@@ -22,30 +77,46 @@ in html
     <body>
         
         <header>
-            <h1> Juan Zuniga </h1>
-            <h2> Portfolio </h2>
-            
+            <h1> Juan Zuniga</h1>
         </header>
         
         <hr width = "50%" />
         
-        <nav>
+        <nav id= "navigation">
             <a href = "index.html"> Home </a>
             <a href = "about.html"> About </a>
             <a href = "contact.html"> Contact Me </a>
             
         </nav>
+        
         <br /> <br />
+        <main>
         <figure>
             
-            <img src = "img/juan_doe.png" />
-        </figure>
+            <img id ="myPicture" src = "img/JuanPic.JPG"/>
+        </figure
         
+        <div>
+            Hello! <br />
+            <p> Thank you for visiting my professional portfolio website.</p>
+            <p> I am a Software Engineer and have been recently hired at ACME Corporation.</p>
+            <p> Feel free to contact me!</p>
+            <em> "With ordinary talent and extroardinary 
+            <strong> pereseverence </strong>, all things are attainable" </em><br />
+        <p>-Thomas F. Buxton</p>
+        
+        </div>
+        </main>
         
         
         <!-- This is the footer -->
         <!-- The footer goes inside the body but not always -->
-        <footer>
+        <footer id= "footer">
+            <hr>
+            CST 336. 2018; Zuniga <br />
+            <strong>DISCLAIMER:</strong> The information in this webpage is fictious <br />
+            It is used for academic purposes only.
+            <a href = "http://csumb.edu">CSUMB</a>
             
             
         </footer>
