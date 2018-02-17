@@ -1,1 +1,0 @@
-Welcome Juan Zuniga to CST 336
