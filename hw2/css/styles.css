@@ -1,0 +1,55 @@
+   img {
+        border-radius:20px;
+    }
+    
+    body {
+        background-color: black;
+        background-image:url("../img/background.jpg");
+        color: white;
+        
+    }
+    #reel1, #reel2, #reel3, #reel4, #reel5 {
+        top:248px;
+        position:absolute;
+    }
+ main img{
+     text-align: center;
+        
+    }
+    
+    #reel1{
+     text-align:center;
+
+        right:525px;
+    }
+    #reel2{
+ text-align:center;
+        right:600px;
+    }
+    #reel3{
+   text-align:center;
+   left:357px;
+    }
+        #reel4{
+   text-align:center;
+   left:357px;
+    }
+        #reel5{
+   text-align:center;
+   left:357px;
+    }
+    .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+h3{
+    text-align: center;
+}
