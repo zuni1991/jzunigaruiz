@@ -11,13 +11,13 @@
       $orientation = "horizontal";
       $keyword = $_GET['keyword'];
       
-      if (isset($_GET['layout'])) {  //user checked a layout
+      if (isset($_GET['layout'])) { 
         
         $orientation = $_GET['layout'];
         
       }
       
-      if (!empty($_GET['category'])) { //user selected a category
+      if (!empty($_GET['category'])) { 
         $keyword = $_GET['category'];
       }
       
