@@ -277,3 +277,36 @@ Stack trace:
 #1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab6/index.php(105): displayCategories()
 #2 {main}
   thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab6/index.php on line 12
+[11-Apr-2018 00:49:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'bookstore'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/index.php(7): getDatabaseConnection('bookstore')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php on line 19
+[11-Apr-2018 01:33:01 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 178
+[11-Apr-2018 01:34:10 UTC] PHP Fatal error:  Call to undefined function addToCart() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php on line 94
+[11-Apr-2018 01:34:10 UTC] PHP Stack trace:
+[11-Apr-2018 01:34:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php:0
+[11-Apr-2018 01:34:11 UTC] PHP Fatal error:  Call to undefined function addToCart() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php on line 94
+[11-Apr-2018 01:34:11 UTC] PHP Stack trace:
+[11-Apr-2018 01:34:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php:0
+[11-Apr-2018 01:34:22 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 178
+[11-Apr-2018 01:34:25 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 178
+[11-Apr-2018 01:34:43 UTC] PHP Fatal error:  Call to undefined function addToCart() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php on line 94
+[11-Apr-2018 01:34:43 UTC] PHP Stack trace:
+[11-Apr-2018 01:34:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php:0
+[11-Apr-2018 01:34:44 UTC] PHP Fatal error:  Call to undefined function addToCart() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php on line 94
+[11-Apr-2018 01:34:44 UTC] PHP Stack trace:
+[11-Apr-2018 01:34:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/bookInfo.php:0
+[11-Apr-2018 01:47:03 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 6
+[11-Apr-2018 01:47:03 UTC] PHP Stack trace:
+[11-Apr-2018 01:47:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php:0
+[11-Apr-2018 01:47:29 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 73
+[11-Apr-2018 01:47:50 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 72
+[11-Apr-2018 01:48:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 71
+[11-Apr-2018 01:50:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 13
+[11-Apr-2018 01:50:42 UTC] PHP Stack trace:
+[11-Apr-2018 01:50:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php:0
+[11-Apr-2018 01:59:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 6
+[11-Apr-2018 01:59:42 UTC] PHP Stack trace:
+[11-Apr-2018 01:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php:0
