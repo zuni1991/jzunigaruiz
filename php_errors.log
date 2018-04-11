@@ -310,3 +310,9 @@ Stack trace:
 [11-Apr-2018 01:59:42 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php on line 6
 [11-Apr-2018 01:59:42 UTC] PHP Stack trace:
 [11-Apr-2018 01:59:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/scart.php:0
+[11-Apr-2018 02:34:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_53875b1d81962c9'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/index.php(7): getDatabaseConnection('heroku_53875b1d...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php on line 19

@@ -1,1 +1,1 @@
-# CST336_Project
+# Bookstore Project!

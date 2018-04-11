@@ -18,7 +18,10 @@
     }
     
     if(isset($_POST['clearCart'])){
-    session_destroy();
+        //if (session_status() == PHP_SESSION_ACTIVE) { session_destroy(); }
+        foreach($_SESSION['cart'] as $itemKey => $item) {
+            unset($_SESSION['cart'][$itemKey]);
+        }
     }
 ?>
 

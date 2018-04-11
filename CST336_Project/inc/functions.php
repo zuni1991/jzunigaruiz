@@ -40,7 +40,7 @@
                 }
                 else {
                     
-                    echo "<td><button class='btn btn-warning' >Add</button></td>";
+                    echo "<td><button class='btn btn-outline-secondary' >Add</button></td>";
                 }
                 
                 echo "</form>";
@@ -63,19 +63,19 @@
                 
                 echo "<tr>";
                 echo "<td><img src='" .$item['image']. "'></td>";
-                echo "<td><h4>".$item['name']."</h4></td>";
+                echo "<td><h4><a href=\"bookInfo.php?bookId=" .$item['id']. "\" target='_blank' >".$item['name']."</a></h4></td>";
                 echo "<td><h4>".$item['year']."</h4></td>";
                 echo "<td><h4>$".$item['price']."</h4></td>";
                 
                 echo "<form method='post'>";
                 echo "<input type='hidden' name='itemId' value='$itemId'>";
                 echo "<td><input type='text' name='update' class='form-control' placeHolder='$itemQuant'></td>";
-                echo "<td><button class='btn btn-danger'>Update</button></td>";
+                echo "<td><button class='btn btn-outline-danger'>Update</button></td>";
                 echo "</form>";
                 
                 echo "<form method='post'>";
                 echo "<input type='hidden' name='removeId' value='$itemId'>";
-                echo "<td><button class='btn btn-danger'>Remove</button></td>";
+                echo "<td><button class='btn btn-outline-danger'>Remove</button></td>";
                 echo "</form>";
                 
                 echo "</tr>";
@@ -90,7 +90,7 @@
     function clearCart(){
         echo "<form method='post'>";
         echo "<input type='hidden' name='clearCart' value='true'>";
-        echo "<td><button class='btn btn-danger'>Clear Cart</button></td>";
+        echo "<td><button class='btn btn-outline-danger'>Clear Cart</button></td>";
         echo "</form>";
     }
 ?>
