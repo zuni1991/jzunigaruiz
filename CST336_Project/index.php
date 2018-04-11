@@ -4,7 +4,7 @@
     include 'dbConnection.php';
     session_start();
     
-    $conn = getDatabaseConnection("bookstore");
+    $conn = getDatabaseConnection("heroku_53875b1d81962c9");
     
     function displayGenres(){
         global $conn;
