@@ -316,3 +316,225 @@ Stack trace:
 #1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/index.php(7): getDatabaseConnection('heroku_53875b1d...')
 #2 {main}
   thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php on line 19
+[12-Apr-2018 20:05:19 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 34
+[12-Apr-2018 20:05:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 25
+[12-Apr-2018 20:31:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 25
+[12-Apr-2018 20:31:30 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 25
+[12-Apr-2018 20:31:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 25
+[12-Apr-2018 20:33:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_admin' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php(25): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/loginProcess.php on line 25
+[12-Apr-2018 20:34:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(64): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php on line 15
+[12-Apr-2018 20:34:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(64): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php on line 15
+[12-Apr-2018 20:34:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php:15
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(15): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php(64): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php on line 15
+[12-Apr-2018 20:35:18 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:18 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:18 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:18 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:18 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 4
+[12-Apr-2018 20:35:18 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:19 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:19 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:19 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:19 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:19 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 4
+[12-Apr-2018 20:35:19 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:56 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:56 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:56 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:56 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:56 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 4
+[12-Apr-2018 20:35:56 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:57 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:57 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:57 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[12-Apr-2018 20:35:57 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:35:57 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 4
+[12-Apr-2018 20:35:57 UTC] PHP Stack trace:
+[12-Apr-2018 20:35:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[12-Apr-2018 20:36:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_category' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:12
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(12): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(88): getCategories('1')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 12
+[12-Apr-2018 20:36:17 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 29
+[15-Apr-2018 03:31:16 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php on line 14
+[15-Apr-2018 03:31:16 UTC] PHP Stack trace:
+[15-Apr-2018 03:31:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php:0
+[15-Apr-2018 03:31:16 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/admin.php:43
+[15-Apr-2018 03:34:32 UTC] PHP Fatal error:  Call to undefined function sesson_start() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php on line 2
+[15-Apr-2018 03:34:32 UTC] PHP Stack trace:
+[15-Apr-2018 03:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php:0
+[15-Apr-2018 03:34:32 UTC] PHP Fatal error:  Call to undefined function sesson_start() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php on line 2
+[15-Apr-2018 03:34:32 UTC] PHP Stack trace:
+[15-Apr-2018 03:34:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php:0
+[15-Apr-2018 03:36:02 UTC] PHP Fatal error:  Call to undefined function sesson_start() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php on line 2
+[15-Apr-2018 03:36:02 UTC] PHP Stack trace:
+[15-Apr-2018 03:36:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php:0
+[15-Apr-2018 03:36:03 UTC] PHP Fatal error:  Call to undefined function sesson_start() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php on line 2
+[15-Apr-2018 03:36:03 UTC] PHP Stack trace:
+[15-Apr-2018 03:36:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/addProduct.php:0
+[15-Apr-2018 03:37:05 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 29
+[15-Apr-2018 03:37:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(56): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 56
+[15-Apr-2018 03:37:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:56
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(56): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 56
+[15-Apr-2018 03:46:42 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:29
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(29): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(64): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 29
+[15-Apr-2018 04:09:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_43c1456b693fb28'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(3): getDatabaseConnection('heroku_43c1456b...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[15-Apr-2018 04:09:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_43c1456b693fb28'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(3): getDatabaseConnection('heroku_43c1456b...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[15-Apr-2018 04:10:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php on line 7
+[15-Apr-2018 04:10:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php on line 7
+[15-Apr-2018 04:10:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ottermart.om_product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php on line 7
+[15-Apr-2018 04:10:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php:7
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php(7): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/deleteProduct.php on line 7
+[15-Apr-2018 04:11:16 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:16 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 3
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:16 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:16 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 2
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:16 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 3
+[15-Apr-2018 04:11:16 UTC] PHP Stack trace:
+[15-Apr-2018 04:11:16 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:0
+[15-Apr-2018 04:11:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 04:11:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 04:12:06 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 04:17:14 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 04:28:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 05:15:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[15-Apr-2018 05:17:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
