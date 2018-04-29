@@ -26,11 +26,11 @@
                         success: function(data,status) {
                              if (!data) { 
                           
-                                $("#taken").html("<span id='avSpan'> - Username is Available</span>");
+                                $("#taken").html("<span id='avSpan'> - Username Available</span>");
                                  $(username).css("color", "black");
                              } else {
                                 
-                                 $("#taken").html("<span id='unavSpan'> - Username is Unavailable</span>"); 
+                                 $("#taken").html("<span id='unavSpan'> - Username Unavailable</span>"); 
                                   $(username).css("color", "red");
                              }
                              
@@ -89,7 +89,7 @@
                 $("#button").click(function(){
                     if($("#pw2").val() != $("#pw").val()){
                         
-                        $("#match").html("<span id='pwSpan'> - Passwords do not match.</span>");
+                        $("#match").html("<span id='pwSpan'> - Passwords don't match.</span>");
                     } else {
                         $("#match").html("");
                     }
