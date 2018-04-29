@@ -27,9 +27,11 @@
                              if (!data) { 
                           
                                 $("#taken").html("<span id='avSpan'> - Username is Available</span>");
+                                 $(username).css("color", "black");
                              } else {
                                 
                                  $("#taken").html("<span id='unavSpan'> - Username is Unavailable</span>"); 
+                                  $(username).css("color", "red");
                              }
                              
                         
