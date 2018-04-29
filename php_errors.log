@@ -538,3 +538,60 @@ Stack trace:
 #1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php(52): getProductInfo()
 #2 {main}
   thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab7/updateProduct.php on line 25
+[25-Apr-2018 22:17:40 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:17:40 UTC] PHP Stack trace:
+[25-Apr-2018 22:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:17:40 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:17:40 UTC] PHP Stack trace:
+[25-Apr-2018 22:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:17:40 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 5
+[25-Apr-2018 22:17:40 UTC] PHP Stack trace:
+[25-Apr-2018 22:17:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:18:00 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:18:00 UTC] PHP Stack trace:
+[25-Apr-2018 22:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:18:00 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:18:00 UTC] PHP Stack trace:
+[25-Apr-2018 22:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:18:00 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 5
+[25-Apr-2018 22:18:00 UTC] PHP Stack trace:
+[25-Apr-2018 22:18:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:19:23 UTC] PHP Warning:  include(../../dbConnection.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:19:23 UTC] PHP Stack trace:
+[25-Apr-2018 22:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:19:23 UTC] PHP Warning:  include(): Failed opening '../../dbConnection.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 3
+[25-Apr-2018 22:19:23 UTC] PHP Stack trace:
+[25-Apr-2018 22:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:19:23 UTC] PHP Fatal error:  Call to undefined function getDatabaseConnection() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 5
+[25-Apr-2018 22:19:23 UTC] PHP Stack trace:
+[25-Apr-2018 22:19:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:0
+[25-Apr-2018 22:22:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.lab9_user' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 16
+[25-Apr-2018 22:22:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'c9.lab9_user' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(16): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 16
+[25-Apr-2018 22:33:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 17
+[25-Apr-2018 22:33:51 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 17
+[25-Apr-2018 22:37:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 17
+[25-Apr-2018 22:37:40 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php:17
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(17): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php on line 17
