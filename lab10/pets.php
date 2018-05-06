@@ -6,7 +6,7 @@
     
     function getAllPets(){
         
-      $conn = getDatabaseConnection('animalShelter');
+      $conn = getDatabaseConnection('heroku_53875b1d81962c9');
       
       $sql = "SELECT id, name, type FROM pets ORDER BY name";
       
