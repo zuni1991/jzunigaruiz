@@ -607,3 +607,17 @@ Stack trace:
 #1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab9/checkUsernameAPI.php(5): getDatabaseConnection('heroku_53875b1d...')
 #2 {main}
   thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[06-May-2018 05:34:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_53875b1d81962c9'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab10/pets.php(9): getDatabaseConnection('heroku_53875b1d...')
+#2 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab10/pets.php(97): getAllPets()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[06-May-2018 05:35:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_53875b1d81962c9'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab10/pets.php(9): getDatabaseConnection('heroku_53875b1d...')
+#2 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab10/pets.php(97): getAllPets()
+#3 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
