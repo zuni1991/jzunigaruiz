@@ -621,3 +621,1245 @@ Stack trace:
 #2 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/lab10/pets.php(97): getAllPets()
 #3 {main}
   thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[07-May-2018 21:16:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_53875b1d81962c9'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/index.php(7): getDatabaseConnection('heroku_53875b1d...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/CST336_Project/dbConnection.php on line 19
+[07-May-2018 21:29:26 UTC] PHP Fatal error:  Call to undefined function displayCartCount() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 26
+[07-May-2018 21:29:26 UTC] PHP Stack trace:
+[07-May-2018 21:29:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[07-May-2018 21:37:56 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 21:38:19 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 21:38:24 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 21:40:58 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.product' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 21:49:02 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 87
+[07-May-2018 21:49:02 UTC] PHP Stack trace:
+[07-May-2018 21:49:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 21:52:28 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 64
+[07-May-2018 21:52:28 UTC] PHP Stack trace:
+[07-May-2018 21:52:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 21:57:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 90
+[07-May-2018 21:57:06 UTC] PHP Stack trace:
+[07-May-2018 21:57:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 21:59:07 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 65
+[07-May-2018 21:59:07 UTC] PHP Stack trace:
+[07-May-2018 21:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 21:59:49 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 65
+[07-May-2018 21:59:49 UTC] PHP Stack trace:
+[07-May-2018 21:59:49 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 22:08:06 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 63
+[07-May-2018 22:08:06 UTC] PHP Stack trace:
+[07-May-2018 22:08:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 22:09:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 63
+[07-May-2018 22:09:41 UTC] PHP Stack trace:
+[07-May-2018 22:09:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 22:40:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.Book' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 22:40:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.book' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:13
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(13): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(53): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 13
+[07-May-2018 22:41:41 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: no parameters were bound' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:16
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(16): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(56): displayAllProducts()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 16
+[07-May-2018 22:42:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 63
+[07-May-2018 22:42:24 UTC] PHP Stack trace:
+[07-May-2018 22:42:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 22:42:41 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 63
+[07-May-2018 22:42:41 UTC] PHP Stack trace:
+[07-May-2018 22:42:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 23:21:57 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 20
+[07-May-2018 23:21:57 UTC] PHP Stack trace:
+[07-May-2018 23:21:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 23:21:57 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:60
+[07-May-2018 23:22:39 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 20
+[07-May-2018 23:22:39 UTC] PHP Stack trace:
+[07-May-2018 23:22:39 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 23:22:39 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:60
+[07-May-2018 23:28:40 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 17
+[07-May-2018 23:28:40 UTC] PHP Stack trace:
+[07-May-2018 23:28:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[07-May-2018 23:28:40 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:57
+[08-May-2018 20:38:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY000] [1049] Unknown database 'heroku_53875b1d81962c9'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php:19
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php(19): PDO->__construct('mysql:host=loca...', 'root', '')
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php(7): getDatabaseConnection('heroku_53875b1d...')
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/dbConnection.php on line 19
+[09-May-2018 06:04:11 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:11 UTC] PHP Stack trace:
+[09-May-2018 06:04:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:13 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:13 UTC] PHP Stack trace:
+[09-May-2018 06:04:13 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:14 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:14 UTC] PHP Stack trace:
+[09-May-2018 06:04:14 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:22 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:22 UTC] PHP Stack trace:
+[09-May-2018 06:04:22 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:23 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:23 UTC] PHP Stack trace:
+[09-May-2018 06:04:23 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:26 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:26 UTC] PHP Stack trace:
+[09-May-2018 06:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:04:26 UTC] PHP Fatal error:  Call to undefined function displayResults() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php on line 209
+[09-May-2018 06:04:26 UTC] PHP Stack trace:
+[09-May-2018 06:04:26 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/index.php:0
+[09-May-2018 06:58:47 UTC] PHP Parse error:  syntax error, unexpected '"<h3>Image: \r"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 13
+[09-May-2018 06:58:47 UTC] PHP Stack trace:
+[09-May-2018 06:58:47 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 06:58:48 UTC] PHP Parse error:  syntax error, unexpected '"<h3>Image: \r"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 13
+[09-May-2018 06:58:48 UTC] PHP Stack trace:
+[09-May-2018 06:58:48 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 06:59:06 UTC] PHP Parse error:  syntax error, unexpected '"<h3>Image: \r"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 13
+[09-May-2018 06:59:06 UTC] PHP Stack trace:
+[09-May-2018 06:59:06 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 06:59:07 UTC] PHP Parse error:  syntax error, unexpected '"<h3>Image: \r"' (T_CONSTANT_ENCAPSED_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 13
+[09-May-2018 06:59:07 UTC] PHP Stack trace:
+[09-May-2018 06:59:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 07:04:02 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 14
+[09-May-2018 07:04:02 UTC] PHP Stack trace:
+[09-May-2018 07:04:02 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 07:04:03 UTC] PHP Parse error:  syntax error, unexpected 'echo' (T_ECHO), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 14
+[09-May-2018 07:04:03 UTC] PHP Stack trace:
+[09-May-2018 07:04:03 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:36:55 UTC] PHP Fatal error:  Cannot redeclare displayResults() (previously declared in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:72) in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 5
+[09-May-2018 08:36:55 UTC] PHP Stack trace:
+[09-May-2018 08:36:55 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:36:56 UTC] PHP Fatal error:  Cannot redeclare displayResults() (previously declared in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:72) in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php on line 5
+[09-May-2018 08:36:56 UTC] PHP Stack trace:
+[09-May-2018 08:36:56 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:38:18 UTC] PHP Warning:  include(/home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php on line 4
+[09-May-2018 08:38:18 UTC] PHP Stack trace:
+[09-May-2018 08:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:38:18 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php on line 4
+[09-May-2018 08:38:18 UTC] PHP Stack trace:
+[09-May-2018 08:38:18 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:38:19 UTC] PHP Warning:  include(/home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/functions.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php on line 4
+[09-May-2018 08:38:19 UTC] PHP Stack trace:
+[09-May-2018 08:38:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 08:38:19 UTC] PHP Warning:  include(): Failed opening 'functions.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php on line 4
+[09-May-2018 08:38:19 UTC] PHP Stack trace:
+[09-May-2018 08:38:19 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/userSearch.php:0
+[09-May-2018 09:09:32 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php on line 2
+[09-May-2018 09:09:32 UTC] PHP Stack trace:
+[09-May-2018 09:09:32 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:0
+[09-May-2018 09:09:32 UTC] PHP   2. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   3. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   4. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   5. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   6. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   7. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   8. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP   9. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  10. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  11. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  12. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  13. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  14. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  15. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  16. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  17. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  18. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  19. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  20. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  21. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  22. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  23. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  24. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  25. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  26. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  27. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  28. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  29. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  30. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  31. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  32. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  33. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  34. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  35. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  36. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  37. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  38. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  39. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  40. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  41. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  42. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  43. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  44. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  45. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  46. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  47. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  48. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  49. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  50. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  51. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  52. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  53. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  54. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  55. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  56. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  57. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  58. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  59. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  60. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  61. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  62. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  63. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  64. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  65. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  66. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  67. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  68. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  69. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  70. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  71. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  72. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  73. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  74. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  75. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  76. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  77. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  78. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  79. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  80. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  81. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  82. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  83. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  84. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  85. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  86. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  87. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  88. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  89. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  90. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  91. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  92. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  93. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  94. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  95. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  96. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  97. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  98. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP  99. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 100. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 101. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 102. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 103. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 104. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 105. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 106. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 107. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 108. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 109. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 110. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 111. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 112. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 113. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 114. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 115. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 116. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 117. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 118. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 119. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 120. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 121. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 122. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 123. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 124. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 125. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 126. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 127. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 128. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 129. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 130. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 131. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 132. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 133. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 134. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 135. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 136. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 137. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 138. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 139. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 140. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 141. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 142. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 143. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 144. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 145. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 146. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 147. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 148. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 149. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 150. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 151. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 152. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 153. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 154. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 155. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 156. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 157. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 158. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 159. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 160. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 161. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 162. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 163. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 164. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 165. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 166. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 167. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 168. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 169. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 170. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 171. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 172. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 173. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 174. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 175. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 176. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 177. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 178. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 179. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 180. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 181. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 182. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 183. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 184. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 185. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 186. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 187. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 188. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 189. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 190. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 191. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 192. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 193. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 194. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 195. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 196. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 197. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 198. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 199. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 200. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 201. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 202. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 203. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 204. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 205. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 206. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 207. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 208. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 209. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 210. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 211. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 212. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 213. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 214. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 215. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 216. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 217. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 218. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 219. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 220. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 221. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 222. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 223. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 224. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 225. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 226. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 227. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 228. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 229. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 230. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 231. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 232. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 233. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 234. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 235. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 236. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 237. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 238. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 239. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 240. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 241. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 242. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 243. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 244. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 245. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 246. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 247. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 248. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 249. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 250. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 251. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 252. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 253. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 254. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 255. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:32 UTC] PHP 256. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP Fatal error:  Maximum function nesting level of '256' reached, aborting! in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php on line 2
+[09-May-2018 09:09:58 UTC] PHP Stack trace:
+[09-May-2018 09:09:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:0
+[09-May-2018 09:09:58 UTC] PHP   2. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   3. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   4. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   5. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   6. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   7. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   8. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP   9. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  10. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  11. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  12. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  13. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  14. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  15. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  16. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  17. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  18. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  19. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  20. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  21. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  22. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  23. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  24. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  25. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  26. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  27. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  28. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  29. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  30. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  31. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  32. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  33. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  34. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  35. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  36. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  37. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  38. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  39. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  40. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  41. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  42. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  43. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  44. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  45. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  46. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  47. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  48. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  49. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  50. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  51. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  52. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  53. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  54. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  55. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  56. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  57. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  58. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  59. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  60. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  61. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  62. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  63. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  64. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  65. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  66. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  67. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  68. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  69. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  70. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  71. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  72. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  73. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  74. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  75. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  76. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  77. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  78. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  79. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  80. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  81. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  82. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  83. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  84. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  85. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  86. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  87. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  88. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  89. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  90. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  91. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  92. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  93. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  94. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  95. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  96. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  97. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  98. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP  99. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 100. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 101. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 102. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 103. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 104. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 105. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 106. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 107. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 108. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 109. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 110. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 111. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 112. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 113. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 114. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 115. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 116. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 117. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 118. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 119. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 120. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 121. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 122. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 123. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 124. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 125. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 126. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 127. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 128. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 129. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 130. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 131. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 132. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 133. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 134. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 135. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 136. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 137. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 138. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 139. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 140. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 141. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 142. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 143. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 144. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 145. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 146. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 147. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 148. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 149. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 150. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 151. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 152. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 153. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 154. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 155. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 156. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 157. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 158. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 159. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 160. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 161. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 162. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 163. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 164. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 165. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 166. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 167. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 168. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 169. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 170. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 171. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 172. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 173. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 174. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 175. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 176. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 177. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 178. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 179. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 180. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 181. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 182. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 183. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 184. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 185. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 186. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 187. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 188. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 189. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 190. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 191. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 192. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 193. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 194. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 195. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 196. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 197. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 198. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 199. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 200. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 201. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 202. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 203. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 204. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 205. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 206. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 207. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 208. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 209. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 210. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 211. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 212. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 213. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 214. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 215. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 216. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 217. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 218. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 219. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 220. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 221. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 222. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 223. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 224. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 225. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 226. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 227. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 228. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 229. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 230. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 231. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 232. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 233. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 234. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 235. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 236. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 237. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 238. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 239. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 240. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 241. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 242. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 243. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 244. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 245. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 246. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 247. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 248. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 249. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 250. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 251. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 252. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 253. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 254. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 255. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:09:58 UTC] PHP 256. include() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/loginProcess.php:4
+[09-May-2018 09:28:18 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:28:34 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:28:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:32:21 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:32:57 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:38:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:48:39 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:49:46 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 09:49:46 UTC] PHP Stack trace:
+[09-May-2018 09:49:46 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 09:49:46 UTC] PHP   2. addBook() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:89
+[09-May-2018 09:49:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:51:03 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD FROM books WHERE bookId =  1' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 57
+[09-May-2018 09:51:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:53:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'ADD FROM books WHERE bookId =  1' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:57
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(57): PDOStatement->execute()
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 57
+[09-May-2018 09:53:38 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:53:44 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(52): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:58:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(55): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 09:58:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE bookId = NULL' at line 9' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 51
+[09-May-2018 09:58:33 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE bookId = NULL' at line 9' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:51
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(51): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 51
+[09-May-2018 10:00:12 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(55): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 10:02:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(55): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 10:09:07 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(59): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 10:09:12 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:12 UTC] PHP Stack trace:
+[09-May-2018 10:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:12 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:12 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:12 UTC] PHP Stack trace:
+[09-May-2018 10:09:12 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:12 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:28 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:28 UTC] PHP Stack trace:
+[09-May-2018 10:09:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:28 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:29 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:29 UTC] PHP Stack trace:
+[09-May-2018 10:09:29 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:29 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:34 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:34 UTC] PHP Stack trace:
+[09-May-2018 10:09:34 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:34 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:35 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:35 UTC] PHP Stack trace:
+[09-May-2018 10:09:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:35 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:37 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(59): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 10:09:40 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:40 UTC] PHP Stack trace:
+[09-May-2018 10:09:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:40 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:09:40 UTC] PHP Warning:  PDOStatement::execute() expects parameter 1 to be array, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 56
+[09-May-2018 10:09:40 UTC] PHP Stack trace:
+[09-May-2018 10:09:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:0
+[09-May-2018 10:09:40 UTC] PHP   2. PDOStatement->execute() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:56
+[09-May-2018 10:10:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:25
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(25): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(57): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 25
+[09-May-2018 10:12:25 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:13:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:16:53 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:19:54 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:21:28 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:22:47 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:22:52 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:23:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:23:04 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:23:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:26:48 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:33:49 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'json' at line 1' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php:11
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(11): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php(43): getProductInfo()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/updateBook.php on line 11
+[09-May-2018 10:46:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 45
+[09-May-2018 10:46:42 UTC] PHP Stack trace:
+[09-May-2018 10:46:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:46:42 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:87
+[09-May-2018 10:46:43 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 45
+[09-May-2018 10:46:43 UTC] PHP Stack trace:
+[09-May-2018 10:46:43 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:46:43 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:87
+[09-May-2018 10:50:06 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 84
+[09-May-2018 10:50:08 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 84
+[09-May-2018 10:50:30 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 74
+[09-May-2018 10:50:31 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 74
+[09-May-2018 10:51:41 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 31
+[09-May-2018 10:51:41 UTC] PHP Stack trace:
+[09-May-2018 10:51:41 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:51:41 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:73
+[09-May-2018 10:51:42 UTC] PHP Fatal error:  Call to a member function prepare() on a non-object in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 31
+[09-May-2018 10:51:42 UTC] PHP Stack trace:
+[09-May-2018 10:51:42 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:51:42 UTC] PHP   2. displayAllProducts() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:73
+[09-May-2018 10:52:07 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 62
+[09-May-2018 10:52:07 UTC] PHP Stack trace:
+[09-May-2018 10:52:07 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:52:08 UTC] PHP Fatal error:  Call to undefined function displayAllProducts() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 62
+[09-May-2018 10:52:08 UTC] PHP Stack trace:
+[09-May-2018 10:52:08 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 10:52:59 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:53:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:53:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:53:31 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:54:35 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:54:36 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:55:00 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:55:01 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1048 Column 'authorId' cannot be null' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 10:55:29 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '38' for key 'PRIMARY'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 11:00:10 UTC] PHP Fatal error:  Call to undefined function _GET() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 13
+[09-May-2018 11:00:10 UTC] PHP Stack trace:
+[09-May-2018 11:00:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 11:00:11 UTC] PHP Fatal error:  Call to undefined function _GET() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 13
+[09-May-2018 11:00:11 UTC] PHP Stack trace:
+[09-May-2018 11:00:11 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:0
+[09-May-2018 11:03:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 37
+[09-May-2018 11:03:46 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: number of bound variables does not match number of tokens' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:37
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(37): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 37
+[09-May-2018 11:14:53 UTC] PHP Parse error:  syntax error, unexpected 'The' (T_STRING), expecting ',' or ';' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 77
+[09-May-2018 11:23:43 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry '122' for key 'PRIMARY'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php:22
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php(22): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/addBook.php on line 22
+[09-May-2018 11:40:53 UTC] PHP Parse error:  syntax error, unexpected '}' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 94
+[09-May-2018 11:41:22 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S02]: Base table or view not found: 1146 Table 'bookstore.bookstore' doesn't exist' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(90): addPrices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 23
+[09-May-2018 11:41:50 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[42S22]: Column not found: 1054 Unknown column 'prices' in 'field list'' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:23
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(23): PDOStatement->execute()
+#1 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php(90): addPrices()
+#2 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 23
+[09-May-2018 11:47:00 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 27
+[09-May-2018 11:47:00 UTC] PHP Stack trace:
+[09-May-2018 11:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 11:47:00 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:27
+[09-May-2018 11:47:00 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 27
+[09-May-2018 11:47:00 UTC] PHP Stack trace:
+[09-May-2018 11:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 11:47:00 UTC] PHP   2. mysql_query() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:27
+[09-May-2018 11:47:00 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 28
+[09-May-2018 11:47:00 UTC] PHP Stack trace:
+[09-May-2018 11:47:00 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 11:47:00 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:28
+[09-May-2018 11:48:10 UTC] PHP Warning:  mysql_fetch_assoc() expects parameter 1 to be resource, string given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 25
+[09-May-2018 11:48:10 UTC] PHP Stack trace:
+[09-May-2018 11:48:10 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 11:48:10 UTC] PHP   2. mysql_fetch_assoc() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:25
+[09-May-2018 11:50:56 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 93
+[09-May-2018 11:51:19 UTC] PHP Parse error:  syntax error, unexpected end of file in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 95
+[09-May-2018 11:56:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 64
+[09-May-2018 11:56:40 UTC] PHP Stack trace:
+[09-May-2018 11:56:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 12:03:52 UTC] PHP Warning:  mysql_query(): Access denied for user ''@'localhost' (using password: NO) in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 21
+[09-May-2018 12:03:52 UTC] PHP Stack trace:
+[09-May-2018 12:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 12:03:52 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 12:03:52 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:21
+[09-May-2018 12:03:52 UTC] PHP Warning:  mysql_query(): A link to the server could not be established in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 21
+[09-May-2018 12:03:52 UTC] PHP Stack trace:
+[09-May-2018 12:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 12:03:52 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 12:03:52 UTC] PHP   3. mysql_query() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:21
+[09-May-2018 12:03:52 UTC] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 23
+[09-May-2018 12:03:52 UTC] PHP Stack trace:
+[09-May-2018 12:03:52 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 12:03:52 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 12:03:52 UTC] PHP   3. mysql_fetch_array() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:23
+[09-May-2018 12:04:44 UTC] PHP Fatal error:  Call to undefined function SELECT SUM(price) FROM books() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 21
+[09-May-2018 12:04:44 UTC] PHP Stack trace:
+[09-May-2018 12:04:44 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 12:04:44 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 18:16:21 UTC] PHP Fatal error:  Call to undefined function SELECT SUM(price) FROM books() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 21
+[09-May-2018 18:16:21 UTC] PHP Stack trace:
+[09-May-2018 18:16:21 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:16:21 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 18:16:53 UTC] PHP Fatal error:  Call to undefined function SELECT SUM(price) * FROM books() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 21
+[09-May-2018 18:16:53 UTC] PHP Stack trace:
+[09-May-2018 18:16:53 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:16:53 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:97
+[09-May-2018 18:18:35 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:18:35 UTC] PHP Stack trace:
+[09-May-2018 18:18:35 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:18:35 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:87
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:84
+[09-May-2018 18:19:24 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:24 UTC] PHP Stack trace:
+[09-May-2018 18:19:24 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:24 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:88
+[09-May-2018 18:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:38 UTC] PHP Stack trace:
+[09-May-2018 18:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:38 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:86
+[09-May-2018 18:19:38 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 19
+[09-May-2018 18:19:38 UTC] PHP Stack trace:
+[09-May-2018 18:19:38 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:19:38 UTC] PHP   2. add() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:89
+[09-May-2018 18:31:40 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 56
+[09-May-2018 18:31:40 UTC] PHP Stack trace:
+[09-May-2018 18:31:40 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:32:37 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php on line 56
+[09-May-2018 18:32:37 UTC] PHP Stack trace:
+[09-May-2018 18:32:37 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/admin.php:0
+[09-May-2018 18:55:13 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php on line 18
+[09-May-2018 18:55:16 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php on line 18
+[09-May-2018 18:55:23 UTC] PHP Fatal error:  Uncaught exception 'PDOException' with message 'SQLSTATE[HY093]: Invalid parameter number: parameter was not defined' in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php:18
+Stack trace:
+#0 /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php(18): PDOStatement->execute(Array)
+#1 {main}
+  thrown in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/checkCredentials.php on line 18
+[09-May-2018 19:15:28 UTC] PHP Warning:  include(inc/footer.php): failed to open stream: No such file or directory in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php on line 136
+[09-May-2018 19:15:28 UTC] PHP Stack trace:
+[09-May-2018 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php:0
+[09-May-2018 19:15:28 UTC] PHP Warning:  include(): Failed opening 'inc/footer.php' for inclusion (include_path='.:/usr/share/php:/usr/share/pear') in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php on line 136
+[09-May-2018 19:15:28 UTC] PHP Stack trace:
+[09-May-2018 19:15:28 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php:0
+[09-May-2018 19:22:57 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php on line 64
+[09-May-2018 19:22:57 UTC] PHP Stack trace:
+[09-May-2018 19:22:57 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php:0
+[09-May-2018 19:22:58 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php on line 64
+[09-May-2018 19:22:58 UTC] PHP Stack trace:
+[09-May-2018 19:22:58 UTC] PHP   1. {main}() /home/ubuntu/workspace/jzunigaruiz2/jzunigaruiz/FinalProject/books.php:0
