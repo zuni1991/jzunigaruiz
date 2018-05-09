@@ -50,7 +50,7 @@ $conn = getDatabaseConnection("heroku_53875b1d81962c9");
                 <br /><br />
                 
                 </div>
-                <label for="bName"><strong>Order result by: </strong></label><br />
+                <label for="bName"><strong>Sort by: </strong></label><br />
                 <div class="custom-control custom-radio custom-control-inline">
                     <input type="radio" id="customRadioInline3" name="orderBy" value="name"class="custom-control-input">
                     <label class="custom-control-label" for="customRadioInline3">Name</label>
@@ -58,7 +58,7 @@ $conn = getDatabaseConnection("heroku_53875b1d81962c9");
                 <br />
                 <div class="custom-control custom-radio custom-control-inline">
                     <input type="radio" id="customRadioInline4" name="orderBy" value="year"class="custom-control-input">
-                    <label class="custom-control-label" for="customRadioInline4">Publish Year</label>
+                    <label class="custom-control-label" for="customRadioInline4">Year</label>
                 </div>
                 <br /><br />
                 <input type="submit" name = "searchForm" value="Submit" class="btn btn-default">
